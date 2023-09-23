@@ -43,20 +43,27 @@ const Home = (props) => {
       <img alt="image" src="/curved6-1500h.jpg" className="home-image" />
       <section className="home-features">
         <FeatureCard
-          text="Choose the best design system for your next product."
+          text="Streamlining processes through expert automation, optimizing efficiency and reducing operational costs."
           title="Components"
           image_src="/cube1.svg"
+          new_prop="Automation"
         ></FeatureCard>
-        <FeatureCard image_src="/person1.svg"></FeatureCard>
         <FeatureCard
-          text="Make your code easier to maintain using variables."
+          image_src="/person1.svg"
+          new_prop="Connectivity"
+          text="Facilitating seamless connections, our solutions empower effective communication and collaboration."
+        ></FeatureCard>
+        <FeatureCard
+          text="Pioneering technological advancements, we drive innovation to deliver cutting-edge solutions."
           title="Less Code"
           image_src="/rocket1.svg"
+          new_prop="Innovation"
         ></FeatureCard>
         <FeatureCard
-          text="This design system is fully supported on any device."
+          text="Expanding capabilities and functionality, our technology solutions empower businesses to achieve more."
           title="Fully Responsive"
           image_src="/credit%20card1.svg"
+          new_prop="Enhanced Functionality"
         ></FeatureCard>
       </section>
       <section className="home-container04">
