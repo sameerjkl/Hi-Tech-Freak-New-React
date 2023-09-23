@@ -45,25 +45,25 @@ const Home = (props) => {
         <FeatureCard
           text="Streamlining processes through expert automation, optimizing efficiency and reducing operational costs."
           title="Components"
-          image_src="/cube1.svg"
           new_prop="Automation"
+          image_src="/cube1.svg"
         ></FeatureCard>
         <FeatureCard
-          image_src="/person1.svg"
-          new_prop="Connectivity"
           text="Facilitating seamless connections, our solutions empower effective communication and collaboration."
+          new_prop="Connectivity"
+          image_src="/person1.svg"
         ></FeatureCard>
         <FeatureCard
           text="Pioneering technological advancements, we drive innovation to deliver cutting-edge solutions."
           title="Less Code"
-          image_src="/rocket1.svg"
           new_prop="Innovation"
+          image_src="/rocket1.svg"
         ></FeatureCard>
         <FeatureCard
           text="Expanding capabilities and functionality, our technology solutions empower businesses to achieve more."
           title="Fully Responsive"
-          image_src="/credit%20card1.svg"
           new_prop="Enhanced Functionality"
+          image_src="/credit%20card1.svg"
         ></FeatureCard>
       </section>
       <section className="home-container04">
